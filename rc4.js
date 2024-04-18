@@ -24,7 +24,3 @@ function rc4Encrypt(data, key) {
     }
     return result;
 }
-
-function rc4Decrypt(data, key) {
-    return rc4Encrypt(data, key); // RC4 decryption is same as encryption
-}

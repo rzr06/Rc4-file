@@ -12,17 +12,19 @@
         <h1>RC4 File Encryption</h1>
         <label for="fileInput">Select File: </label>
         <input type="file" id="fileInput">
-        <div id="output-container">
-            <label for="output"> Preview :</label>
-            <textarea id="output" rows="5"></textarea>
-        </div>
-        <button onclick="encryptFile()">Encrypt</button>
-        <button onclick="decryptFile()">Decrypt</button>
-        <a href="index.html"class="btn"><span>X</span></a>
+        <h1></h1>
+        <label for="operation">Select Operation:</label>
+
+        <select id="operation">
+            <option value="encrypt">Enkripsi</option>
+            <option value="decrypt">Deskripsi</option>
+        </select>
+
+        <button onclick="performOperation()">Submit</button>
+
+        <a href="index.html" class="btn"><span>X</span></a>
     </div>
     
-    
-
     <div id="footer">
         <p>@Senggarang Selatan Production 2024</p>
     </div>
