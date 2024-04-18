@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logo.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Encryption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RC4 File Encryption</h1>
+        <label for="fileInput">Select File: </label>
+        <input type="file" id="fileInput">
+        <div id="output-container">
+            <label for="output"> Preview :</label>
+            <textarea id="output" rows="5"></textarea>
+        </div>
+        <button onclick="encryptFile()">Encrypt</button>
+        <button onclick="decryptFile()">Decrypt</button>
+        <a href="index.html"class="btn"><span>X</span></a>
+    </div>
+    
+    
+
+    <div id="footer">
+        <p>@Senggarang Selatan Production 2024</p>
+    </div>
+
+    <script src="rc4.js"></script>
+    <script src="encryption.js"></script>
+</body>
+</html>

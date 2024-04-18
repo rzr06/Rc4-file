@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    color: #5344A9;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #000;
+    outline: none;
+}
+
+textarea {
+    overflow: auto; /* Menampilkan scroll bar ketika konten lebih besar dari textarea */
+    resize: vertical; /* Memungkinkan pengguna untuk mengubah ukuran textarea */
+}
+
+button {
+    background-color: #5344a9da;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5344A9;
+}
+
+#output-container {
+    margin-top: 20px;
+}
+
+#output {
+    height: 100px;
+}
+
+/* CSS untuk tombol Close */
+.btn {
+    position: absolute;
+    top: 10px; /* Atur jarak dari bagian atas container */
+    right: 10px; /* Atur jarak dari bagian kanan container */
+    width: 50px; /* Lebar tombol */
+    height: 30px; /* Tinggi tombol */
+    line-height: 30px; /* Sesuaikan tinggi dengan line-height untuk teks di tengah tombol */
+    text-align: center; /* Pusatkan teks di tengah tombol */
+    background-color: #e74c3c; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    text-decoration: none;
+    border-radius: 5px; /* Atur sudut tombol */
+  }
+  
+  /* Efek hover saat kursor diarahkan ke tombol */
+  .btn:hover {
+    background-color: #c0392b; /* Warna latar belakang tombol saat hover */
+  }
+  
+  /* CSS untuk span di dalam tombol */
+  .btn span {
+    display: inline-block;
+  }
+  
+  
+/* Tambahkan gaya untuk elemen footer */
+#footer {
+    position: fixed;
+    bottom: 3px;
+    left: 13px;
+    color: #fff; /* Warna teks putih */
+    font-size: 12px;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(#1b2735 0%,#090a0f 100%);
+}
